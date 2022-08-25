@@ -1,0 +1,19 @@
+n=input()
+i=n.split()
+print(len(i))
+print(i)
+
+n=["sonata","software","ltd","hyderabad"]
+for i in n:
+    print(i)
+
+
+
+
+num1=input()
+if (num1==num1[::-1]):
+    print ('palindome')
+else:
+    print('not a palindrome')
+
+
